@@ -36,4 +36,4 @@ course = Course("Bootcamp Data Science", "Alejandro Valejo", [])
 course.add_student(student1)
 course.add_student(student2)
 
-print(course.list_students())
+course.list_students()
