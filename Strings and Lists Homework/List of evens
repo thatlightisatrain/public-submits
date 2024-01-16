@@ -1,8 +1,6 @@
-evens = [x for x in range(1, 299) if x % 2 == 0]
-print(evens)
+student = {
+    "name": "Alice",
+    "age": 25,
+}
 
-print(len(evens))
-evenssquared = [x ** 2 for x in evens]
-print(evenssquared)
-
-print('57 is part of the List') if 57 in evens else print('no 57 in here')
+print(student["age"])
