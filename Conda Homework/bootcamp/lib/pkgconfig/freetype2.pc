@@ -1,0 +1,14 @@
+prefix=/Users/oz/anaconda3/envs/bootcamp
+exec_prefix=/Users/oz/anaconda3/envs/bootcamp
+libdir=/Users/oz/anaconda3/envs/bootcamp/lib
+includedir=/Users/oz/anaconda3/envs/bootcamp/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/oz/anaconda3/envs/bootcamp/lib -lfreetype
+Libs.private: -lz -L/Users/oz/anaconda3/envs/bootcamp/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

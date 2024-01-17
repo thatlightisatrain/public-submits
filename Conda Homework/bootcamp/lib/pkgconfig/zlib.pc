@@ -1,0 +1,13 @@
+prefix=/Users/oz/anaconda3/envs/bootcamp
+exec_prefix=/Users/oz/anaconda3/envs/bootcamp
+libdir=/Users/oz/anaconda3/envs/bootcamp/lib
+sharedlibdir=/Users/oz/anaconda3/envs/bootcamp/lib
+includedir=/Users/oz/anaconda3/envs/bootcamp/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

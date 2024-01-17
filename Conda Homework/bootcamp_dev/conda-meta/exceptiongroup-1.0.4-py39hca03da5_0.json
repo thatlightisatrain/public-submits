@@ -1,0 +1,177 @@
+{
+  "build": "py39hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oz/anaconda3/pkgs/exceptiongroup-1.0.4-py39hca03da5_0",
+  "files": [
+    "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/LICENSE",
+    "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/METADATA",
+    "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/RECORD",
+    "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/WHEEL",
+    "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/exceptiongroup/__init__.py",
+    "lib/python3.9/site-packages/exceptiongroup/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/exceptiongroup/__pycache__/_catch.cpython-39.pyc",
+    "lib/python3.9/site-packages/exceptiongroup/__pycache__/_exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/exceptiongroup/__pycache__/_formatting.cpython-39.pyc",
+    "lib/python3.9/site-packages/exceptiongroup/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/exceptiongroup/_catch.py",
+    "lib/python3.9/site-packages/exceptiongroup/_exceptions.py",
+    "lib/python3.9/site-packages/exceptiongroup/_formatting.py",
+    "lib/python3.9/site-packages/exceptiongroup/_version.py",
+    "lib/python3.9/site-packages/exceptiongroup/py.typed"
+  ],
+  "fn": "exceptiongroup-1.0.4-py39hca03da5_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/oz/anaconda3/pkgs/exceptiongroup-1.0.4-py39hca03da5_0",
+    "type": 1
+  },
+  "md5": "6eafdd8e3b00c3f4caa8b727ee02e083",
+  "name": "exceptiongroup",
+  "package_tarball_full_path": "/Users/oz/anaconda3/pkgs/exceptiongroup-1.0.4-py39hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6e5070d765031e0ad403a1cbf90ae6d19a0228f802e320b7acff460aa72ed47c",
+        "sha256_in_prefix": "6e5070d765031e0ad403a1cbf90ae6d19a0228f802e320b7acff460aa72ed47c",
+        "size_in_bytes": 3704
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "382ebacd8627a9bccfc8e8d5cd6ab4d2ea65e57f697b5273d6cdce3f091059d0",
+        "sha256_in_prefix": "382ebacd8627a9bccfc8e8d5cd6ab4d2ea65e57f697b5273d6cdce3f091059d0",
+        "size_in_bytes": 6083
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e2ab8cf7f8968086e4e0217208f602d57b218b725a6c96173b73d42db49e7740",
+        "sha256_in_prefix": "e2ab8cf7f8968086e4e0217208f602d57b218b725a6c96173b73d42db49e7740",
+        "size_in_bytes": 1394
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+        "sha256_in_prefix": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup-1.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4fd7f40d6966bdedcaf173c1cb734a6245b250172fed42a218c8bd40da838342",
+        "sha256_in_prefix": "4fd7f40d6966bdedcaf173c1cb734a6245b250172fed42a218c8bd40da838342",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "66bf8c3160d714c76b4410bc9d2f1416a0134502f467e2dbf9200daacfaebb42",
+        "sha256_in_prefix": "66bf8c3160d714c76b4410bc9d2f1416a0134502f467e2dbf9200daacfaebb42",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2eaf433840dd1236f88c44a39de205181e4d6106e9cf3c5e5de60691a6973d7",
+        "sha256_in_prefix": "e2eaf433840dd1236f88c44a39de205181e4d6106e9cf3c5e5de60691a6973d7",
+        "size_in_bytes": 735
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/__pycache__/_catch.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "282988e20087e9b660dfdb5bde2d8028140517f2ae3aa2217417fa26afb27277",
+        "sha256_in_prefix": "282988e20087e9b660dfdb5bde2d8028140517f2ae3aa2217417fa26afb27277",
+        "size_in_bytes": 2808
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/__pycache__/_exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bb3f4d61b3742b29797eee6bdf47c6d132aeed20532da0baa508acd3a0038a4",
+        "sha256_in_prefix": "3bb3f4d61b3742b29797eee6bdf47c6d132aeed20532da0baa508acd3a0038a4",
+        "size_in_bytes": 8423
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/__pycache__/_formatting.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "83d41ced012c4932e50903893eca857993ba2ebcbd1676fd5d8be68957eb3b47",
+        "sha256_in_prefix": "83d41ced012c4932e50903893eca857993ba2ebcbd1676fd5d8be68957eb3b47",
+        "size_in_bytes": 11370
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/__pycache__/_version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2abd1ad61f49a7353113da2cf9e4219e65fb45278cfa47b1b293c8a94e3df5e7",
+        "sha256_in_prefix": "2abd1ad61f49a7353113da2cf9e4219e65fb45278cfa47b1b293c8a94e3df5e7",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/_catch.py",
+        "path_type": "hardlink",
+        "sha256": "9bb04745253f90acbfa6a30848f02b7fdf735b5460306d348bceb6ddfeffb04a",
+        "sha256_in_prefix": "9bb04745253f90acbfa6a30848f02b7fdf735b5460306d348bceb6ddfeffb04a",
+        "size_in_bytes": 3578
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "71de80c22eb96c1f7842bfe33f39da31ef014563cbb70062b2eecfa64f3f30b3",
+        "sha256_in_prefix": "71de80c22eb96c1f7842bfe33f39da31ef014563cbb70062b2eecfa64f3f30b3",
+        "size_in_bytes": 9687
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/_formatting.py",
+        "path_type": "hardlink",
+        "sha256": "2c1bfde3ba967a0d9fa045cfc20265f52f65a766c7e0e7d1956ab1a976173998",
+        "sha256_in_prefix": "2c1bfde3ba967a0d9fa045cfc20265f52f65a766c7e0e7d1956ab1a976173998",
+        "size_in_bytes": 19035
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/_version.py",
+        "path_type": "hardlink",
+        "sha256": "8c15e397f840071a5d572340c39c9c74513aa99b2348c54e8904c8d16af6e701",
+        "sha256_in_prefix": "8c15e397f840071a5d572340c39c9c74513aa99b2348c54e8904c8d16af6e701",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/python3.9/site-packages/exceptiongroup/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "39e23584e82a49a2068af72bc56841dfbad45a0c3b0d15734823612d58a93c9f",
+  "size": 29863,
+  "subdir": "osx-arm64",
+  "timestamp": 1668714367000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/exceptiongroup-1.0.4-py39hca03da5_0.conda",
+  "version": "1.0.4"
+}
