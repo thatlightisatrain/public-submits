@@ -1,0 +1,66 @@
+import json
+
+def load_database():
+    try:
+        with open('bootcamp.txt', 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return []
+
+def save_database(database):
+    with open('bootcamp.txt', 'w') as f:
+        json.dump(database, f)
+
+def add_student():
+    name = input("Enter the student's name: ")
+    age = input("Enter the student's age: ")
+    email = input("Enter the student's email: ")
+    return {'name': name, 'age': age, 'email': email}
+
+def remove_student(database):
+    name = input("Enter the name of the student to remove: ")
+    for student in database:
+        if student['name'] == name:
+            database.remove(student)
+            print(f"Removed {name} from the database.")
+            return
+    print(f"No student named {name} found in the database.")
+
+def view_students(database):
+    for student in database:
+        print(f"Name: {student['name']}, Age: {student['age']}, Email: {student['email']}")
+
+def search_student(database):
+    name = input("Enter the name of the student to search for: ")
+    for student in database:
+        if student['name'] == name:
+            print(f"Name: {student['name']}, Age: {student['age']}, Email: {student['email']}")
+            return
+    print(f"No student named {name} found in the database.")
+
+def main():
+    database = load_database()
+    while True:
+        print("1. Add a student")
+        print("2. Remove a student")
+        print("3. View all students")
+        print("4. Search for a student")
+        print("5. Exit")
+        choice = input("Enter your choice: ")
+        if choice == '1':
+            database.append(add_student())
+            save_database(database)
+        elif choice == '2':
+            remove_student(database)
+            save_database(database)
+        elif choice == '3':
+            view_students(database)
+        elif choice == '4':
+            search_student(database)
+        elif choice == '5':
+            break
+        else:
+            print("Invalid choice. Please enter a number between 1 and 5.")
+
+if __name__ == "__main__":
+    main()
